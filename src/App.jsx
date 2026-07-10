@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import './App.css'
 import Student from './Student.jsx'
+import User  from './User.jsx';
 /*
 function App() {
 let Mark = [50,60,70,80];
@@ -26,6 +27,7 @@ function App(){
         setUsername = {setUsername}
         
         />
+        <User/>
     </>
   )
 }
