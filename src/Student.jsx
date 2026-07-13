@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 /*
 // passing props parameter as object
 
@@ -40,6 +40,8 @@ export default function Student({name,age,no,mark}){
 
 }
 */
+
+/*
 export default function Login({status,setStatus,username,setUsername}){
     const[Temp,setTemp]=useState("");
     
@@ -70,4 +72,4 @@ export default function Login({status,setStatus,username,setUsername}){
         </div>
         </>
     )
-}
+}*/

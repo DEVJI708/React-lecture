@@ -1,8 +1,9 @@
 
-import { useState } from 'react';
+//import { useState } from 'react';
 import './App.css'
-import Student from './Student.jsx'
+//import Student from './Student.jsx'
 import User  from './User.jsx';
+import Registration  from './Registration.jsx';
 /*
 function App() {
 let Mark = [50,60,70,80];
@@ -17,16 +18,19 @@ let Mark = [50,60,70,80];
 */
 
 function App(){
+  /*
   const  [status,setStatus] = useState("false");
   const  [username, setUsername] = useState("Guest");
-  return(
-    <>
-        <Student status = {status}
+
+   <Student status = {status}
         setStatus = {setStatus}
         username = {username}
         setUsername = {setUsername}
         
-        />
+        />*/
+  return(
+    <>
+        <Registration/>
         <User/>
     </>
   )
