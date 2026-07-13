@@ -66,7 +66,7 @@ export default function Login({status,setStatus,username,setUsername}){
             </form> 
             <br />
             <br />
-            <button onClick={checked}>Login</button>
+            <button  type="submit" onClick={checked}>Login</button>
         </div>
         </>
     )
