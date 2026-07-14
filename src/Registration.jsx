@@ -1,3 +1,4 @@
+/*
 import { useState, useRef } from "react"; // Hooks import
 
 export default function Registration() {
@@ -32,10 +33,10 @@ export default function Registration() {
   return (
     <>
       <div>
-        {/* Form */}
+         
         <form onSubmit={handle} >
 
-          <label htmlFor="fnm">Enter Your Full Name : </label> {/* Label */}
+          <label htmlFor="fnm">Enter Your Full Name : </label> 
           <input
             type="text"
             id="fnm"
@@ -73,7 +74,7 @@ export default function Registration() {
           />
           <br />
           <br />
-          <button>Submit</button> {/* Submit Button */}
+          <button>Submit</button> 
           <p>Full Name : {finalFullnm}</p>
           <p>Password : {finalpassword}</p>
           <p>Confirm Password : {setfinalConfirmPassword}</p>
@@ -84,3 +85,5 @@ export default function Registration() {
     </>
   );
 }
+
+*/

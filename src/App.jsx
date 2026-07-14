@@ -2,8 +2,9 @@
 //import { useState } from 'react';
 import './App.css'
 //import Student from './Student.jsx'
-import User  from './User.jsx';
-import Registration  from './Registration.jsx';
+//import User  from './User.jsx';
+//import Registration  from './Registration.jsx';
+import Loop from './Loop.jsx'
 /*
 function App() {
 let Mark = [50,60,70,80];
@@ -30,8 +31,9 @@ function App(){
         />*/
   return(
     <>
-        <Registration/>
-        <User/>
+       {/* <Registration/>*/}
+        <Loop/>
+       {/* <User/>*/}
     </>
   )
 }
