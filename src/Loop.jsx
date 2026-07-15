@@ -1,13 +1,21 @@
+import { useState } from "react";
+
 export default function Loop(){
     
     const subject = ["python","java","linux"]; //array
 
+    const [search,setsearch]= useState("");
+
     const car = [
-        {'id':1 , 'name' : "BMW" , 'model' :2024},
-        {'id':2 , 'name' : "Scorpio" , 'model' :2020},
-        {'id':3 , 'name' : "Swift" , 'model' :1889},
-        {'id':4 , 'name' : "Venue" , 'model' :2023}
-    ]
+        {'id':1 , 'name' : "BMW" , 'model' :2024 ,'owner' : "Maulikbhai"},
+        {'id':2 , 'name' : "Scorpio" , 'model' :2020 , 'owner' :"Shivambhai"},
+        {'id':3 , 'name' : "Swift" , 'model' :1889 , 'owner' :"Jaybhai"},
+        {'id':4 , 'name' : "Venue" , 'model' :2023 , 'owner' :"Jeelbhai"}
+    ] //array of object
+
+    const filtered = car.filter(element =>
+        element.owner.toLowerCase().includes(search.toLowerCase())
+    );
 
     return(
         <>?
@@ -17,7 +25,9 @@ export default function Loop(){
             ))}
         </ul>
         
-        <table border="2">
+         <input type="text" placeholder="Search by owner" value={search} onChange={(e) => setsearch(e.target.value)}/>
+
+        <table border="1">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -27,13 +37,20 @@ export default function Loop(){
             </thead>
 
             <tbody>
-                {car.map((element)=>(
-                    <tr key={element.id}>
-                        <td>{element.id}</td>
-                        <td>{element.name}</td>
-                        <td>{element.model}</td>
-                    </tr>
-                ))}
+               {filtered.length > 0 ? (
+                        filtered.map((element) => (
+                            <tr key={element.id}>
+                                <td>{element.id}</td>
+                                <td>{element.name}</td>
+                                <td>{element.model}</td>
+                                <td>{element.owner}</td>
+                            </tr>
+                        ))
+                    ) : (
+                        <tr>
+                            <td colSpan="4">Record not Found</td>
+                        </tr>
+                    )}
             </tbody>
         </table>
     
