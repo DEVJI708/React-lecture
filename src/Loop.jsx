@@ -29,12 +29,7 @@ export default function Loop() {
                 ))}
             </ul>
 
-            <input
-                type="text"
-                placeholder="Search by owner"
-                value={search}
-                onChange={(e) => setsearch(e.target.value)}
-            />
+            <input type="text" placeholder="Search by owner" value={search} onChange={(e) => setsearch(e.target.value)}/>
 
             <table border="1">
                 <thead>

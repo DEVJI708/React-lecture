@@ -4,7 +4,8 @@ import './App.css'
 //import Student from './Student.jsx'
 //import User  from './User.jsx';
 //import Registration  from './Registration.jsx';
-import Loop from './Loop.jsx'
+//import Loop from './Loop.jsx'
+import Effect_Hook from './Effect_Hook'
 /*
 function App() {
 let Mark = [50,60,70,80];
@@ -32,8 +33,10 @@ function App(){
   return(
     <>
        {/* <Registration/>*/}
-        <Loop/>
+        {/*<Loop/>*/}
        {/* <User/>*/}
+       <Effect_Hook/>
+
     </>
   )
 }
