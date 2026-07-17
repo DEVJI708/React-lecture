@@ -6,6 +6,11 @@ import './App.css'
 //import Registration  from './Registration.jsx';
 //import Loop from './Loop.jsx'
 import Effect_Hook from './Effect_Hook'
+//import Life_cycle from './Life_cycle'
+
+import Button from 'react-bootstrap/Button';
+
+
 /*
 function App() {
 let Mark = [50,60,70,80];
@@ -18,6 +23,8 @@ let Mark = [50,60,70,80];
   )
 }
 */
+
+
 
 function App(){
   /*
@@ -36,6 +43,11 @@ function App(){
         {/*<Loop/>*/}
        {/* <User/>*/}
        <Effect_Hook/>
+       {/*<Life_cycle/>*/}
+
+        <div className="p-4">
+              <Button variant="primary">Click Me</Button>
+        </div>
 
     </>
   )
