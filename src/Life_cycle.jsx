@@ -1,3 +1,4 @@
+//mounting,updating,unmounting with example
 import { useState, useEffect } from "react";
 
 export default function Life_cycle() {

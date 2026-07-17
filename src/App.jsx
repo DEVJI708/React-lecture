@@ -5,10 +5,9 @@ import './App.css'
 //import User  from './User.jsx';
 //import Registration  from './Registration.jsx';
 //import Loop from './Loop.jsx'
-import Effect_Hook from './Effect_Hook'
-//import Life_cycle from './Life_cycle'
-
-import Button from 'react-bootstrap/Button';
+import Effect_Hook from './Effect_Hook.jsx'
+//import Life_cycle from './Life_cycle.jsx'
+//import Form from './Form'
 
 
 /*
@@ -42,12 +41,10 @@ function App(){
        {/* <Registration/>*/}
         {/*<Loop/>*/}
        {/* <User/>*/}
-       <Effect_Hook/>
+       <Effect_Hook/><br></br>
        {/*<Life_cycle/>*/}
-
-        <div className="p-4">
-              <Button variant="primary">Click Me</Button>
-        </div>
+        {/*<Form/>*/}
+        
 
     </>
   )
