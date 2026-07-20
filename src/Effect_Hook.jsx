@@ -1,4 +1,5 @@
 
+/*
 //useEffect State with Example
 import { useState, useEffect, useRef } from "react";
 
@@ -37,3 +38,4 @@ export default function Effect_Hook() {
     </div>
   );
 }
+*/

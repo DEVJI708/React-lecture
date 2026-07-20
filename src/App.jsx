@@ -5,9 +5,10 @@ import './App.css'
 //import User  from './User.jsx';
 //import Registration  from './Registration.jsx';
 //import Loop from './Loop.jsx'
-import Effect_Hook from './Effect_Hook.jsx'
+//import Effect_Hook from './Effect_Hook.jsx'
 //import Life_cycle from './Life_cycle.jsx'
 //import Form from './Form'
+import  Tailwind_Task from './Tailwind_Task.jsx'
 
 
 /*
@@ -41,9 +42,10 @@ function App(){
        {/* <Registration/>*/}
         {/*<Loop/>*/}
        {/* <User/>*/}
-       <Effect_Hook/><br></br>
+       {/*<Effect_Hook/><br></br>*/}
        {/*<Life_cycle/>*/}
         {/*<Form/>*/}
+        <Tailwind_Task/>
         
 
     </>
